@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Netflix</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  </head>
+  <body>
+    <header>
+       <img src="images/logo.svg"/>
+    </header>
+    <main>
+
+      <div class="text-container">
+        <p class="text">Netflix was founded in 1997 as a movie rental service that shipped DVDs to customers by mail.
+          In 2007, Netflix started streaming movies and TV shows over the Internet. In 2001, Netflix had fewer than half a
+          million subscribers. Today, it has more than 200 million paying members. </p>
+      </div>
+
+      <div class="text-container">
+        <p class="text">Netflix registered $24.996 billion in annual revenue in 2020, a 24% increase over the previous year.
+          Since 2001, Netflix has recorded a compound annual revenue growth rate of 35.68%.</p>
+      </div>
+
+      <div id="revenue-barchart-container">
+        <div id="revenue-barchart"></div>
+      </div>
+
+      <div class="text-container">
+        <p class="text">In 2020, Netflix reported revenue of over 11.45 billion U.S. dollars in North America,
+          up from around ten billion in the previous year. The revenue generated in the United States and Canada
+          was more than triple the amount brought in from Latin America, but revenue from the Asia Pacific region
+          reached and surpassed two billion U.S. dollars for the first time in 2020.</p>
+      </div>
+
+      <div class="text-container">
+        <p class="text">In Q1 and Q2 of 2020, the Asia-Pacific region saw a 16 and 18 percent increase in revenue
+          respectively thanks to a huge increase in subscriber figures (an increase of over 6 million in 6 months).
+          Throughout the remainder of 2020 and into the start of 2021, this region continued to add the highest rate
+          of subscribers with a further 5.4 million being added since Q2 2020.</p>
+      </div>
+
+      <div class="text-container">
+        <p class="text">Revenue growth of every region over the last three years is visible on the chart below.</p>
+      </div>
+
+      <div id="revenue-line-chart-container">
+        <select id="select-button"></select>
+        <div id="revenue-line-chart"></div>
+      </div>
+
+      <div class="text-container">
+        <p class="text"> Netflix’s recent announcement said that it had added over 25 million subscribers in the pandemic
+          (15.77 million in Q1 and over 10 million in Q2), which is almost the same as the entire number added
+          throughout 2019 - 28 million. Netflix currently has 203.66 million subscribers worldwide.
+          The number of Netflix paying subscribers has grown by 21.9% in 2020.</p>
+      </div>
+
+      <div id="subscribers-barchart-container">
+        <div id="subscribers-barchart"></div>
+      </div>
+
+      <div class="text-container">
+        <p class="text">While Netflix is available in almost every country in the world,
+          the US is the most important one. Of the 200+ million Netflix subscribers, as of February 2021,
+          the number of subscribers in the US and Canada is 73 million, in Europe, Middle East, and Africa
+          66 million, Latin America 37 million and Asia-Pacific 25 million subscribers.</p>
+      </div>
+
+      <div id="subscribers-pie-chart-container">
+        <div id="subscribers-pie-chart"></div>
+      </div>
+
+      <div class="text-container">
+        <p class="text">The number of movies available on Netflix was reduced throughout the years.
+          There was a reduction of 3,000 films between 2010 and 2020, from 6,755 to 3,730. On the other hand,
+          the number of TV shows has grown, from 530 to 2,108. As more media producers seek to hold subscriber
+          attention for as long as possible, the smart investment is TV series. When people watch a movie, they
+          watch Netflix for a couple hours. When they watch a TV show, they watch Netflix for days.</p>
+      </div>
+
+      <div id="movies-and-shows-barchart-container">
+        <div id="movies-and-shows-barchart"></div>
+      </div>
+
+      <div class="text-container">
+        <p class="text">8 out of the top 10 most popular original video content series in the US are produced
+          by Netflix and 9 out of the 10 most watched original series in the US across the whole of 2020 belonged
+          to Netflix. Overall, Netflix accounted for 143.04 billion minutes streamed for its 9 most popular original
+          series in 2020. Which amounts to 90.73% of total time watched among all of the top 10 most-streamed original
+          series online.</p>
+      </div>
+
+      <div id="netflix-originals-barchart-container">
+        <div id="netflix-originals-barchart"></div>
+      </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/revenue-by-area.js"></script>
+    <script src="scripts/total-revenue.js"></script>
+    <script src="scripts/total-subscribers.js"></script>
+    <script src="scripts/subscribers-by-area.js"></script>
+    <script src="scripts/movies-and-shows.js"></script>
+    <script src="scripts/netflix-originals.js"></script>
+  </body>
+  </html>
