@@ -53,7 +53,7 @@ totalSubscribersSvg.append("text")
     .attr("dy", "1em")
     .style("font-size", "18px")
     .style("text-anchor", "middle")
-    .text("$M");
+    .text("M");
 
 totalSubscribersSvg.selectAll("mybar")
   .data(totalSubscribersData)
